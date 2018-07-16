@@ -1,0 +1,4 @@
+#!/bin/bash
+img_path=~/pictures/shot.png
+import $img_path
+xclip -i $img_path -selection clipboard -t image/png

@@ -1,0 +1,6 @@
+(setq doom-font (font-spec :family "Noto Sans Mono" :size 12))
+(setq-default fringe-mode '8)
+(after! core (setq-default truncate-lines nil))
+(after! core (setq truncate-partial-width-windows nil))
+(after! core (setq-default fringe-indicator-alist (acons 'continuation '(left-curly-arrow right-curly-arrow) fringe-indicator-alist)))
+(after! core (set-fringe-style nil))
